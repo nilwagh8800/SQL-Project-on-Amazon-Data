@@ -7,41 +7,41 @@ The major aim of this project is to gain insight into the sales data of Amazon t
 
 This dataset contains sales transactions from three different branches of Amazon, respectively located in Mandalay, Yangon and Naypyitaw. The data contains 17 columns and 1000 rows:
 
-Column               Description                           data Type
 
-invoice_id     Invoice of the sales made                   VARCHAR(30)
 
-branch         Branch at which sales were made             VARCHAR(5)
+invoice_id  :   Invoice of the sales made                   VARCHAR(30)
 
-city           The location of the branch                  VARCHAR(30)
+branch  :       Branch at which sales were made             VARCHAR(5)
 
-customer_type  The type of the customer                    VARCHAR(30)
+city     :      The location of the branch                  VARCHAR(30)
 
-gender         Gender of the customer making purchase      VARCHAR(10)
+customer_type :  The type of the customer                    VARCHAR(30)
 
-product_line   Product line of the product sold            VARCHAR(100)
+gender    :     Gender of the customer making purchase      VARCHAR(10)
 
-unit_price     The price of each product                   DECIMAL(10, 2)
+product_line  : Product line of the product sold            VARCHAR(100)
 
-quantity       The amount of the product sold              INT
+unit_price   :  The price of each product                   DECIMAL(10, 2)
 
-VAT            The amount of tax on the purchase           FLOAT(6, 4)
+quantity   :    The amount of the product sold              INT
 
-total          The total cost of the purchase              DECIMAL(10, 2)
+VAT       :     The amount of tax on the purchase           FLOAT(6, 4)
 
-date           The date on which the purchase was made     DATE
+total    :      The total cost of the purchase              DECIMAL(10, 2)
 
-time           The time at which the purchase was made     TIMESTAMP
+date     :      The date on which the purchase was made     DATE
 
-payment_method The total amount paid                       DECIMAL(10, 2)
+time     :      The time at which the purchase was made     TIMESTAMP
 
-cogs           Cost Of Goods sold                          DECIMAL(10, 2)
+payment_method : The total amount paid                       DECIMAL(10, 2)
 
-gross_margin_percentage  Gross margin percentage           FLOAT(11, 9)
+cogs    :       Cost Of Goods sold                          DECIMAL(10, 2)
 
-gross_income  Gross Income                                 DECIMAL(10, 2)
+gross_margin_percentage : Gross margin percentage           FLOAT(11, 9)
 
-rating        Rating                                       FLOAT(2, 1)
+gross_income : Gross Income                                 DECIMAL(10, 2)
+
+rating    :    Rating                                       FLOAT(2, 1)
 
 
 # Analysis List
